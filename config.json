@@ -1,0 +1,9 @@
+{
+  "twilio_sid": "ACxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+  "twilio_auth_token": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+  "twilio_phone_number": "+15550000000",
+  "target_phone_number": "+15551234567",
+  "company_name": "Security Verification Department",
+  "voice_url": "https://your-server-url.com/voice_script.xml",
+  "log_file": "otp_captures.log"
+}
